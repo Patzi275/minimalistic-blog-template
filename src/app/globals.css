@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Space+Groesk:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary: #f56565;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #301414;
+  }
+}
+
+body {
+  font-family: 'Open Sans', serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  .blue-button {
+    @apply bg-primary/20 text-primary font-bold py-3 px-4 rounded-lg;
+  }
+
+  .title-xl {
+    @apply mb-12 border-b border-b-gray-200 pb-8 text-4xl font-bold sm:text-5xl;
+  }
+}
