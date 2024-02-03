@@ -24,7 +24,7 @@ export default function Header() {
 
     return (
         <header className="mb-16 flex items-center justify-between sm:mb-24">
-            <h1 className="text-xl font-extrabold">Hashnode blog</h1>
+            <h1 className="text-xl font-extrabold"><span>&#10100;</span> My tech blog <span>&#10101;</span></h1>
             <div className={`fixed right-0 top-0 ${open ? 'flex' : 'hidden'} z-10 size-full gap-4 bg-white/95 sm:static sm:flex sm:size-min sm:bg-transparent`}>
                 <button className="absolute right-8 top-8 sm:hidden" onClick={handleClose}><IoClose size={iconsSize} /></button>
                 <ul className="container mx-20 mt-32 flex flex-col gap-8 sm:mx-0 sm:mt-0 sm:flex-row sm:gap-4">
