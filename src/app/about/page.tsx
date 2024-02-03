@@ -15,13 +15,13 @@ function About() {
                         src='https://picsum.photos/300/200?random=1'
                         alt='avatar'
                         size={128}
-                        classname='sm:hidden'
+                        className='sm:hidden'
                     />
                     <Avatar
                         src='https://picsum.photos/300/200?random=1'
                         alt='avatar'
                         size={200}
-                        classname='hidden sm:block'
+                        className='hidden sm:block'
                     />
                     <h2 className='text-2xl font-bold'>John Doe</h2>
                     <p className='text-center'>Web developer | Software engineer</p>
